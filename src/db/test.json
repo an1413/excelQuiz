@@ -1,0 +1,107 @@
+[
+  {
+    "number": 1,
+    "question": "표에서 수금액이 존재하는 수금건수를 산출하고 뒤에 '건'이표시되도록 하시오",
+    "answer": "=COUNT(C3:C8)&'건'",
+    "sheet_photo": "1-answer-1",
+    "hint": "COUNT"
+  },
+  {
+    "number": 2,
+    "question": "표의 수업시간에서 시간만 표시하시오",
+    "answer": ".=HOUR(B2)",
+    "sheet_photo": "1-answer-2",
+    "hint": "HOUR"
+  },
+  {
+    "number": 3,
+    "question": "입사일과 현재날짜를 이용해서 근무년도를 표시하시오",
+    "answer": ".=YEAR(TODAY())-YEAR(C3)",
+    "sheet_photo": "1-answer-3",
+    "hint": "YEAR,TODAY"
+  },
+  {
+    "number": 4,
+    "question": "표에서 선수명의 첫 문자를 대문자로 변환하고 팀명의 전체 문자를 대문자로 변환해서 선수명(팀명)에 표시하시오",
+    "answer": ".=PROPER(D3)&'('&UPPER(C3)&')'",
+    "sheet_photo": "1-answer-4",
+    "hint": "PROPER,UPPER"
+  },
+  {
+    "number": 5,
+    "question": "표의 이메일에서 @앞의 문자열만 추출하여 닉네임에 표시하시오",
+    "answer": "=MID(D4,1,SEARCH('@',D4,1)-1)",
+    "sheet_photo": "1-answer-5",
+    "hint": "MID,SEARCH"
+  },
+  {
+    "number": 6,
+    "question": "표에서 승점을 기준으로 순위를 구해서 1,2,3위는'결승진출' ,나머지는 공백으로 결승에 표시하시오",
+    "answer": ".=IF(RANK.EQ(E4,$E$3:$E$12)<=3,'결승진출',)",
+    "sheet_photo": "1-answer-6",
+    "hint": "IF,RANK.EQ"
+  },
+  {
+    "number": 7,
+    "question": "성과금 = 호봉*기본금 일때 표1에서 호봉과 기본급을 이용해서 성과금을 계산하시오(소수점이하는 버리시오)",
+    "answer": ".=TRUNC(SQRT(C3)*D3)",
+    "sheet_photo": "1-answer-7",
+    "hint": "TRUNC,SQRT"
+  },
+  {
+    "number": 8,
+    "question": "'표에 구분이 음악인 제품들의 판매총액 합계를 계산해서 백의 자리에서 올림하여 표시하시오'",
+    "answer": ".=ROUNDUP(SUMIF(A4:A12,'음악',E4:E12),-3)",
+    "sheet_photo": "1-answer-8",
+    "hint": "ROUNDUP,SUMIF"
+  },
+  {
+    "number": 9,
+    "question": "표의 홈페이지주소에서 '.kr' 을'@상공.kr'로 변경하고, 첫글자는 대문자로 변경하여 메일주소를 구하시오",
+    "answer": "=PROPER(SUBSTITUTE(A3,'.kr','@상공.kr'))",
+    "sheet_photo": "1-answer-9",
+    "hint": "PROPER,SUBSTITUTE"
+  },
+  {
+    "number": 10,
+    "question": "표에서 판매총액이 많은 5개의 제품은 재생산, 나머지는 생산중단으로 표시하시오",
+    "answer": "=IF(C3>=LARGE($C$3:$C$12,5) '재생산','생산중단')",
+    "sheet_photo": "1-answer-10",
+    "hint": "IF,LARGE"
+  },
+  {
+    "number": 11,
+    "question": "표1의 사업자명과 표2를 이용해서 사업잡번호를 표시하시오, 단 사업자번호의5~6번째 숫자는 'ㅇㅇ'으로 표시하고 표2에 없는 사업자번호는 공백으로 표시하시오",
+    "answer": ".=IFERROR(REPLACE(VLOOKUP(A3,$A$16:$B$20,2,FALSE),5,2,'○○'),'')",
+    "sheet_photo": "1-answer-11",
+    "hint": "IFERROR,REPLACE, VLOOKUP,FALSE"
+  },
+  {
+    "number": 12,
+    "question": "구분에서 할인 대상자 목록에서 찾아 할인율에 표시하시오 단, 오류 값이 나오면 할이율을 0으로 지정하시오",
+    "answer": ".=IF(TYPE(VLOOKUP(F4,$A$16:$B$18,2,FALSE))=1,VLOOKUP(F4,$A$16:$B$18,2,FALSE),0)",
+    "sheet_photo": "1-answer-12",
+    "hint": "IF,TYPE,VLOOKUP"
+  },
+  {
+    "number": 13,
+    "question": "표에서 판매량과 가격표를 이용해서 판매총액을 계산하시오. 판매총액=판매랑*할인가,할인가는 의류코드와 가격표를 이용하여 산출",
+    "answer": ".=C3*INDEX($B$15:$D$16,2,MATCH(A3,$B$14:$D$14,0))",
+    "sheet_photo": "1-answer-13",
+    "hint": "INDEX,MATCH"
+  },
+  {
+    "number": 14,
+    "question": "표에서 직위 와 직위표를 이용하여 직위별 수령액을 구하시오수령액: 기본급+직위수당+가족수당",
+    "answer": ".=HLOOKUP(H14,$G$25:$J$27,2,FALSE)+HLOOKUP(H14,$G$25:$J$27,3,FALSE)+I14",
+    "sheet_photo": "1-answer-14",
+    "hint": "HLOOKUP"
+  },
+  {
+    "number": 15,
+    "question": "표의 B3:E6 영역과 지역코드표를 이용하여 부산에서 목포까지의 요금을 구하시오. 단 출발지는 행 도착지는 열로 참조한다.",
+    "answer": "=INDEX(B3:E6,HLOOKUP(A5,$B$9:$E$10,2,FALSE),HLOOKUP(E2,B9:E10,2,FALSE))",
+    "sheet_photo": "1-answer-15",
+    "hint": "INDEX,HLOOKUP"
+  }
+]
