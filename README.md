@@ -1,6 +1,7 @@
-# <span id='top'>엑셀시뮬레이터 프로젝트<img src = "![susu](https://github.com/24-gitTest/demo-repository/assets/99867931/238c60c2-72d5-43ba-a52a-d2fb0513b7f3)"/></span>
+# <span id='top'>엑셀함수 문제풀이 시뮬레이터 프로젝트 EFSS <img src = "![susu](https://github.com/24-gitTest/demo-repository/assets/99867931/238c60c2-72d5-43ba-a52a-d2fb0513b7f3)"/></span>
 
-<img src="https://user-images.githubusercontent.com/87430624/249447353-0b92eb21-66fe-45c2-a542-24cb614e2962.png" width="1000" />
+![image](https://github.com/an1413/excelQuiz/assets/87430624/972743e8-efb7-4c9f-ad1b-3c232814281a)
+
 
 > 📎 <a href='http://susumarket.shop/'>배포 URL</a> <br/>
 >
@@ -36,7 +37,7 @@
 
 ## 1.🎨 프로젝트 소개
 
-** 엑셀뿌셔 프로젝트는 시뮬레이터를 이용한 엑셀 함수 문제 풀이 웹사이트입니다. **
+** EFSS는 시뮬레이터를 이용한 엑셀 함수 문제 풀이 웹사이트입니다. **
 
 #### 기획 의도
 
@@ -44,13 +45,6 @@
 - 어떤 기능이 있으면 좋을지 미래의 사용자들에게 고려중인 기능 중 어떤 기능들이 선호도가 높은지 확인해 보았다.  <br/>
 - 엑셀 시뮬레이터, 엑셀 함수 관련 문제 풀기, 엑셀의 기본적인 기능 설명이 높은 선호도를 보였다. <br/>
 ![image](https://github.com/an1413/excelQuiz/assets/87430624/0e4da30d-acba-4df8-b6e3-9d8597ceaef9)
-
-
-<br/>
-
-<p align="right"><a href="#top">TOP 🔼</a></p>
-
-<br/>
 
 <br/>
 
@@ -65,27 +59,8 @@
 - IDE : Visual Studio Code 1.74.2
 - OS : Windows 10
 
-|   구분    | 설명                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| :-------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| FrontEnd  | <img src="https://img.shields.io/badge/styledcomponents-CC6699?style=for-the-badge&logo=styledcomponents&logoColor=white"> <img src="https://img.shields.io/badge/Axios-D571FF?style=for-the-badge&logo=Axios&logoColor=white"> <img src="https://img.shields.io/badge/HTML5-F16529?style=for-the-badge&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-0062EC?style=for-the-badge&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"> |
-|  BackEnd  | 제공된 API 사용                                                                                                                             <img src="https://img.shields.io/badge/FireBase-CC6699?style=for-the-badge&logo=React&logoColor=yellow">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| 협업 도구 | <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"> <img src="https://img.shields.io/badge/Figma-D535353?style=for-the-badge&logo=Figma&logoColor=white"/>                                                                                                                                                                                                                                |
-|    IDE    | <img src="https://img.shields.io/badge/vscode-3CA5EA?style=for-the-badge&logo=vscode&logoColor=white">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-
-
-
-### 3-3 Version
-
-```
-react: ^18.2.0
-react-router-dom: ^6.12.1
-axios: ^1.4.0
-styled-components: ^5.3.11
-styled-reset: ^4.4.7
-react-device-detect: ^2.2.3
-lodash: ^4.17.21
-prettier: 2.8.8
-```
+![image](https://github.com/an1413/excelQuiz/assets/87430624/5b79095a-4217-4afc-95c0-493e00ccffa9)
+                                                                                                                                                                                                                                    
 
 <p align="right"><a href="#top">TOP 🔼</a></p>
 
