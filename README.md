@@ -208,66 +208,6 @@ prettier: 2.8.8
 <p align="right"><a href="#top">TOP 🔼</a></p>
 <br>
 
-### 📐 컨벤션
-
-팀원 간의 원활한 소통과 협업을 위해 커밋 컨벤션과, 코드 컨벤션을 만들어 이를 따랐습니다.
-
-### 🔗 커밋 컨벤션
-
-- 다양한 사례를 참고하여 프로젝트에서 주로 쓰일 것 같은 커밋 유형을 간추려 컨벤션으로 지정했습니다.
-
-  ```
-  1. 커밋 유형 지정
-      - 커밋 유형은 영어로 작성하며, 첫 글자를 대문자로 합니다
-      - 커밋 유형
-      - Feat : 새로운 기능, 특징 추가
-      - Fix : 수정, 버그 수정
-      - Docs : 문서에 관련된 내용, 문서 수정
-      - Style : 스타일링
-      - Refactor : 리팩토링
-      - Test : 테스트 코드 수정, 누락된 테스트를 추가할 때, 리팩토링 테스트 추가
-  	- Remove : 파일을 삭제하는 작업만 수행한 경우
-  	- Comment : 필요한 주석 추가 및 변경
-  	- Rename : 파일 혹은 폴더명을 수정하거나 옮기는 작업만인 경우
-  	- init : 초기 파일 설정
-      - Chore : 빌드 업무 수정, 패키지 매니저 수정
-
-  🧾 2. 커밋 메시지는 제목 & 본문으로 구성합니다.
-
-      git commit -m "Feat: 로그인 기능 구현 #13 //제목
-          - 로그인 유효성 검사 //본문
-          - 로그인 정보 서버로 전송" //본문
-
-  👆 3. 한 커밋에는 한 가지 문제만 담습니다.
-  ```
-
-<br>
-
-### 🔗 코드 컨벤션
-
-- 리액트 코딩에 주로 쓰이는 컨벤션을 참고하여 저희 조만의 코드 컨벤션을 만들었습니다.
-- 문자열 처리 시 쌍따옴표/홑따옴표의 사용, 혹은 문장 끝 세미콜론의 사용여부와 같은 개인적 취향이 반영될 수 있는 항목들의 경우에는 사전 설문을 통해 다수결에 따라 지정했습니다.
-
-  ```
-  🛼 컴포넌트로 분리된 파일은 PascalCase으로 작성합니다.
-
-  🐫 컴포넌트가 아닌 파일, 함수명, 변수명은 camelCase로 작성합니다.
-
-  💄 다른 스타일 시트 파일(Styled-components)은, 스타일 시트 적용할 파일명 .style.js를 붙여주고, 앞글자는 소문자로 합니다. (확장자는 .js)
-
-  🐫 함수명, 변수명은 camelCase로 작성합니다.
-
-  💬 문자열을 처리할 때는 쌍따옴표를 사용하도록 합니다.
-
-  🔚 문장이 종료될 때는 세미콜론을 붙여줍니다.
-
-  👆 가독성을 위해 한 줄에 하나의 문장만 작성합니다.
-
-  🧮 연산자 사이에는 공백을 추가하여 가독성을 높입니다.
-
-  📠 콤마 다음에 값이 올 경우 공백을 추가하여 가독성을 높입니다.
-  ```
-
 <p align="right"><a href="#top">TOP 🔼</a></p>
 <br>
 
@@ -308,54 +248,12 @@ prettier: 2.8.8
 
 ## 9.📃 페이지 캡쳐 ( 제목 클릭 시 해당 기능 상세 설명으로 이동됩니다. )
 
-### 1) 홈
-
-|[🔗시작 화면](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#-splash)|[🔗회원가입 페이지](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#-%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85-%ED%8E%98%EC%9D%B4%EC%A7%80)|[🔗로그인 페이지](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%ED%8E%98%EC%9D%B4%EC%A7%80)|
-|:---:|:---:|:---:|
-|![splash](https://github.com/NamJongtae/susumarket-deploy/assets/113427991/ea2b0ad9-4225-4f0e-9019-1fe85cff1a8b)|![회원가입](https://github.com/NamJongtae/susumarket-deploy/assets/113427991/3385ea96-9ebe-430e-b4ba-49f113812df9)|![로그인](https://github.com/NamJongtae/susumarket-deploy/assets/113427991/1514061d-e4d2-43a8-8130-151af52efd9d)|
-
-|[🔗피드 페이지](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#-%ED%94%BC%EB%93%9C-%ED%8E%98%EC%9D%B4%EC%A7%80)|[🔗검색 페이지](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#-%EA%B2%80%EC%83%89-%ED%8E%98%EC%9D%B4%EC%A7%80)|[🔗404 페이지](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#-404-%ED%8E%98%EC%9D%B4%EC%A7%80)|
-|:---:|:---:|:---:|
-|<img src="https://github.com/NamJongtae/susumarket-deploy/assets/113427991/c2b48d5e-40ac-45aa-bda4-3fd421b8981f" width="250" />|<img src="https://user-images.githubusercontent.com/87430624/249319334-184c2a9e-57a9-4d56-bbbc-f58a44033fc2.gif" width="250" />|<img src="https://user-images.githubusercontent.com/87430624/249319320-6686e278-729c-4441-b572-7bd0ddeb4b43.gif" width="250" />|
-
-### 2) 채팅
-  
-|[🔗채팅 목록 페이지](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#-%EC%B1%84%ED%8C%85-%ED%8E%98%EC%9D%B4%EC%A7%80)|
-|:---:|
-|<img src="https://github.com/NamJongtae/susumarket-deploy/assets/113427991/f7bbcb85-7e1a-40d3-b03f-8863a03ed8ec" width="250" />|
-
-
-### 3) 게시글
-
-|[🔗게시글 작성 페이지](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#-%EA%B2%8C%EC%8B%9C%EA%B8%80-%EC%9E%91%EC%84%B1-%ED%8E%98%EC%9D%B4%EC%A7%80)|[🔗게시글 상세 페이지](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#-%EA%B2%8C%EC%8B%9C%EA%B8%80-%EC%83%81%EC%84%B8-%ED%8E%98%EC%9D%B4%EC%A7%80)|[🔗게시글 수정 페이지](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#-%EA%B2%8C%EC%8B%9C%EA%B8%80-%EC%88%98%EC%A0%95-%EC%8B%A0%EA%B3%A0-%EC%82%AD%EC%A0%9C)|
-|:---:|:---:|:---:|
-|![게시물상세](https://user-images.githubusercontent.com/87430624/249319366-cc84b138-8b87-4a73-9eaa-d9e77ae67bc0.gif)|![게시물작성](https://user-images.githubusercontent.com/87430624/249319375-2659391d-f4ee-4d78-a240-122b238787a3.gif)|![게시물수정](https://user-images.githubusercontent.com/87430624/249319369-e681b315-3d8e-455b-902f-03a85fc2c86b.gif)|
-  
-|[🔗게시글 삭제](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#-%EA%B2%8C%EC%8B%9C%EA%B8%80-%EC%88%98%EC%A0%95-%EC%8B%A0%EA%B3%A0-%EC%82%AD%EC%A0%9C)|[🔗댓글 기능](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#-%EA%B2%8C%EC%8B%9C%EA%B8%80-%EB%8C%93%EA%B8%80-%EA%B8%B0%EB%8A%A5)|
-|:---:|:---:|
-|<img src="https://user-images.githubusercontent.com/87430624/249319358-dafecbbe-5831-4d28-9f3b-a7eb9f160773.gif" width="250" />|<img src="https://github.com/NamJongtae/susumarket-deploy/assets/113427991/a71f6209-6fe5-4c18-86f8-c14b3595bd3d" width="250" />|
-
-### 4) 프로필
-
-|[🔗마이 프로필 페이지](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#-%EB%A7%88%EC%9D%B4-%ED%94%84%EB%A1%9C%ED%95%84-%ED%8E%98%EC%9D%B4%EC%A7%80)|[🔗프로필 수정 페이지](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#-%ED%94%84%EB%A1%9C%ED%95%84-%EC%88%98%EC%A0%95-%ED%8E%98%EC%9D%B4%EC%A7%80)|[🔗팔로워/팔로잉 페이지](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#-%ED%8C%94%EB%A1%9C%EC%9B%8C-%ED%8E%98%EC%9D%B4%EC%A7%80-%ED%8C%94%EB%A1%9C%EC%9E%89-%ED%8E%98%EC%9D%B4%EC%A7%80)|
-|:---:|:---:|:---:|
-|<img src="https://user-images.githubusercontent.com/87430624/249322185-a3f628e7-a19f-457b-8db6-89b64109de79.gif" />|<img src="https://github.com/NamJongtae/susumarket-deploy/assets/113427991/1a7dbd35-d756-4e04-85f1-181d0e4aa586" />|<img src="https://user-images.githubusercontent.com/87430624/249319422-38a0c159-2dcb-43f3-bf98-1ca0aff1ea5f.gif" />|
-
-### 5) 판매 상품
-
-|[🔗상품 등록 페이지](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#-%EC%83%81%ED%92%88-%EB%93%B1%EB%A1%9D-%ED%8E%98%EC%9D%B4%EC%A7%80)|[🔗상품 수정 페이지](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#-%EC%83%81%ED%92%88-%EC%88%98%EC%A0%95-%ED%8E%98%EC%9D%B4%EC%A7%80)|[🔗상품 삭제 페이지](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#-%EC%83%81%ED%92%88-%EC%82%AD%EC%A0%9C-%ED%8E%98%EC%9D%B4%EC%A7%80)|
-|:---:|:---:|:---:|
-|![상품 등록](https://github.com/NamJongtae/susumarket-deploy/assets/113427991/90b6ddcc-9168-447a-b52f-0878dcf62b51)|![상품 수정](https://github.com/NamJongtae/susumarket-deploy/assets/113427991/b47499fe-1b5a-4c3f-8e31-2c3d1803e062)|![상품 삭제](https://user-images.githubusercontent.com/87430624/249319410-014593a9-5c4c-4788-8e91-862b500d7d5c.gif)|
-
-|[🔗상품 상세페이지](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#%EC%83%81%ED%92%88-%EC%83%81%EC%84%B8-%ED%8E%98%EC%9D%B4%EC%A7%80)|
-|:---:|
-|<img src="https://user-images.githubusercontent.com/47853679/249486421-2864df7d-a0d0-467a-a5a2-cbf1040bb914.gif" width="250"/>|
-
-### 6) 캔버스
-|[🔗캔버스](https://github.com/FRONTENDSCHOOL5/final-24-Susumarket/wiki#-%EC%BA%94%EB%B2%84%EC%8A%A4-%ED%8E%98%EC%9D%B4%EC%A7%80)|
-|:---:|
-|<img src="https://github.com/NamJongtae/susumarket-deploy/assets/113427991/339e4030-e2b3-4096-9198-8edc6983ecf2" width="800" />|
-<br/>
+|![image](https://github.com/an1413/excelQuiz/assets/87430624/66c82ce7-b3b1-4ec8-98cb-9fada3e4a740)
+|![image](https://github.com/an1413/excelQuiz/assets/87430624/3837f0d9-0ad2-426d-8948-30f896c97edd)
+|![image](https://github.com/an1413/excelQuiz/assets/87430624/d30a3480-4247-4da5-82c0-88d941c51e6b)
+|![image](https://github.com/an1413/excelQuiz/assets/87430624/86fa9991-20f5-4b1b-bf95-20c37ff98f2d)
+|![image](https://github.com/an1413/excelQuiz/assets/87430624/28f30595-dc89-4ebb-a22c-c144fbc8e320)
+|![image](https://github.com/an1413/excelQuiz/assets/87430624/feefc1ea-37ae-42e4-b2b7-a7dd992cbf0c)
 
 <p align="right"><a href="#top">TOP 🔼</a></p>
 
